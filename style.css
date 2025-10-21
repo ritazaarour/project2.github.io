@@ -35,9 +35,14 @@ main {
 }
 
 .body {
-    padding: 0.5em;
+    padding: 1em;
+    margin: 20px;
 }
 
 .body p {
     text-align: left;
+}
+
+figure {
+    border: 1px solid gainsboro;
 }
