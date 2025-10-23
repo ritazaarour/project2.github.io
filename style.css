@@ -1,7 +1,7 @@
 :root {
     --color-background: oklch(0.9445 0 0);
-    --color-font: oklch(0.4937 0 0);
-    --color-figcap: oklch(0.9644 0.038 85.35);
+    --color-font: oklch(0.3868 0.0258 234);
+    --color-figcap: oklch(0.9264 0.0258 234);
 }
 
 * {
@@ -48,8 +48,9 @@ figure {
 }
 
 figure img {
-    object-fit: contain;
-
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 figcaption {
