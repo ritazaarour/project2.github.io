@@ -10,14 +10,13 @@
 }
 
 h1 {
-    font-size: 4rem;
     text-align: center;
     border-bottom: 1px solid grey;
 }
 
 h2 {
-    padding: 1px;
     border-bottom: 1px solid grey;
+    padding-bottom: 10px;
 }
 
 p {
