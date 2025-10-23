@@ -1,6 +1,13 @@
+:root {
+    --color-background: oklch(0.9445 0 0);
+    --color-font: oklch(0.4937 0 0);
+    --color-figcap: oklch(0.9354 0.0347 88.78);
+}
+
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-wrap: balance;
+    font-size: 120%;
 }
 
 h1 {
@@ -10,14 +17,8 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 0;
     padding: 1px;
     border-bottom: 1px solid grey;
-}
-h2,
-h3 {
-    font-size: 120%;
-    padding: 1px;
 }
 
 p {
@@ -25,7 +26,7 @@ p {
 }
 
 body {
-    background-color: gainsboro;
+    background-color: var(--color-background);
 }
 
 main {
@@ -35,16 +36,12 @@ main {
     margin-right: 200px;
     border-radius: 10px;
     padding: 100px;
-}
-
-.body {
-    padding: 1em;
-    margin: 20px;
+    color: var(--color-font);
+    
 }
 
 .body p {
     text-align: left;
-    font-size: 120%;
 }
 
 figure {
@@ -52,12 +49,11 @@ figure {
 }
 
 image {
-    object-fit:scale-down;
+    object-fit: contain;
 
 }
 
 figcaption {
-    background-color:ivory;
-    font-size: 150%;
+    background-color:var(--color-figcap);
     padding: 10px;
 }
