@@ -46,3 +46,12 @@ main {
 figure {
     border: 1px solid gainsboro;
 }
+
+image {
+    object-fit: fill;
+}
+
+figcaption {
+    background-color: gainsboro;
+    
+}
