@@ -5,7 +5,7 @@
 
 h1 {
     font-size: 4rem;
-    margin-bottom: 0;
+    margin-block: 1em;
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
@@ -33,6 +33,7 @@ main {
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 10px;
+    padding: 50px;
 }
 
 .body {
@@ -53,6 +54,7 @@ image {
 }
 
 figcaption {
-    background-color: gainsboro;
+    background-color:ivory;
+    padding: 5px;
     
 }
