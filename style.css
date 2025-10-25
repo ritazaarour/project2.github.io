@@ -2,7 +2,7 @@
     --color-background: oklch(0.9445 0 0);
     --color-font: oklch(0.3868 0.0258 234);
     --color-figcap: oklch(0.9264 0.0258 234);
-    --color-h3: oklch(0.7342 0.141 141.99)
+    --color-h3: oklch(0.7342 0.141 141.99 / 32.6%)
 }
 
 h1 {
@@ -65,6 +65,9 @@ ul {
     font-optical-sizing: auto;
     font-weight: 400;
 }
+.FR pre {
+    text-indent: 50px;
+}
 
 figure {
     border: 1px solid gainsboro;
@@ -79,4 +82,7 @@ figure img {
 figcaption {
     background-color:var(--color-figcap);
     padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
