@@ -88,3 +88,21 @@ figcaption {
     font-optical-sizing: auto;
     font-weight: 400;
 }
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem; 
+        padding-bottom: 10px;
+    }
+
+    main {
+        margin: 20px; 
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    p, ul, figcaption {
+        font-size: 1rem; /* More readable on phone */
+    }
+}
