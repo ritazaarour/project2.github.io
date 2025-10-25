@@ -2,15 +2,14 @@
     --color-background: oklch(0.9445 0 0);
     --color-font: oklch(0.3868 0.0258 234);
     --color-figcap: oklch(0.9264 0.0258 234);
-}
-
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-wrap: balance;
+    --color-h3: oklch(0.7342 0.141 141.99)
 }
 
 h1 {
     text-align: center;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     padding-bottom: 20px;
     border-bottom: 1px solid grey;
     font-size: 4rem;
@@ -20,10 +19,23 @@ h2 {
     border-bottom: 1px solid grey;
     margin-top: 0;
     padding-bottom: 10px;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+h3 {
+    background-color: var(--color-h3);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 p {
     text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
 
 body {
@@ -43,6 +55,15 @@ main {
 
 .body p {
     text-align: left;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+ul { 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
 
 figure {
